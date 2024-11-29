@@ -4,7 +4,7 @@ pipeline{
     stage('build'){
       steps{
       script{
-        bat 'docker build -t my-node-app .
+        bat 'docker build -t my-node-app .'
       }
     }
     }
